@@ -13,4 +13,5 @@ json data = json::parse(f);
 
 
 extern int token = data["token"];
+#endif
 
