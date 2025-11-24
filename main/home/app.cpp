@@ -3,10 +3,9 @@
 
 const std::string BOT_TOKEN = token;
 
+int main() {
 
-	int main() {
-
-            /* Setup the bot */
+     /* Setup the bot */
 	    dpp::cluster bot(BOT_TOKEN);
 
 
