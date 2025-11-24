@@ -12,7 +12,7 @@ int main() {
 	    bot.on_log(dpp::utility::cout_logger());
 
      /* The event is fired when someone issues your commands */	
-	    bot.on_slashcommand([](const dpp::slashcommand_t& event) {
+ bot.on_slashcommand([](const dpp::slashcommand_t& event) {
 	        if (event.command.get_command_name() == "ping") {
 	            event.reply("Pong!");
 	        }
