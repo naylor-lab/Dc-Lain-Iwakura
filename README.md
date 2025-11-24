@@ -10,7 +10,7 @@ height="320">
 </p>
 
 <p align="center">
-
-     <h1 align="center">Project Lain</h1>
+    
+     g++ -std=c++20 main/app/run.cpp -o start -ldpp
 </p>
 
